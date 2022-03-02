@@ -1,0 +1,15 @@
+void create(int root){
+	ptr=malloc(sizeof(struct tree));
+	int k;
+	printf("Enter node data(-1 for no insertion)")
+	scanf("%d",&k);
+	if(k==-1)
+		
+		return;
+	else{
+		ptr->info=k;
+		if(root==NULL){
+			root=ptr;
+		}
+		
+}
